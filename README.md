@@ -1,12 +1,5 @@
 # Sketch2Code
 
-Download the data and pretrained weights:
-```sh
-# Getting the data, 1,700 images, 342mb
-git clone https://github.com/ashnkumar/sketch-code.git
-cd sketch-code
-cd scripts
-
 # Get the data and pretrained weights
 sh get_data.sh
 sh get_pretrained_model.sh
