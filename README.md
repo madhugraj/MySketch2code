@@ -1,18 +1,4 @@
-# SketchCode
-
-## Setup
-### Prerequisites
-
-- Python 3 (not compatible with python 2)
-- pip
-
-### Install dependencies
-
-```sh
-pip install -r requirements.txt
-```
-
-## Example Usage
+# Sketch2Code
 
 Download the data and pretrained weights:
 ```sh
@@ -93,5 +79,3 @@ python evaluate_single_gui.py --original_gui_filepath  {path/to/original/gui/fil
 python evaluate_batch_guis.py --original_guis_filepath  {path/to/folder/with/original/guis} \
       --predicted_guis_filepath {path/to/folder/with/predicted/guis}
 ```
-
-
